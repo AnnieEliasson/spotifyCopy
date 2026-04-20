@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --background: black;
+    --text: white;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100svh;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Poppins';
+    text-shadow: 1px 1px 2px black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+    padding: .7rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.logo{
+    width: 90px;
+}
+
+main{
+    padding: 1rem;
+    background: linear-gradient(
+    to bottom,
+    rgb(145, 122, 124) 10px,
+    transparent 420px,
+    rgb(20, 20, 20) 10%
+);
+    line-height: 1.3rem;
+}
+
+.hero{
+    margin-top: 13rem;
+}
+
+h1{
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.buttons{
+    margin: 2.5rem 0 1.8rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+button{
+    padding: .9rem;
+    border-radius: 40px;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: var(--background);
+    color: var(--text);
+    border: 1px solid grey;
+    font-weight: 600;
+    transition: transform .1s ease;
+}
+
+.buttons button:hover{
+    transform: scale(1.05);
+}
+
+#primary-btn{
+    background-color: #FFD2D7;
+    border: 1px solid black;
+    color: black;
+}
+
+#primary-btn:hover{
+    background-color: rgb(255, 228, 233);
+}
+
+.small-text{
+    font-size: .6rem;
+    line-height: 1rem;
+
+    a{
+        color: var(--text);
+    }
+}
+
+.second-section{
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.second-section p{
+    font-size: 1rem;
+}
+
+h2:first{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    line-height: 1.8rem;
+}
+
+table{
+    text-align: left;
+    width: 100%;
+    margin-top: 3rem;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    
+}
+
+.first-table-title{
+    text-align: left;
+    padding: 1rem;
+    display: flex;
+    align-items: end;
+}
+
+th{
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: center;
+    border-bottom: 1px solid white;
+    height: 4rem;
+}
+
+td{
+    font-size: .8rem;
+    text-decoration: underline;
+    padding:  1.4rem 1rem;
+    border-bottom: 1px solid white;
+}
+
+tr:hover{
+        background-color: rgb(48, 48, 48);
+        
+}
+
+.text-center{
+    text-align: center;
+}
+
+.payment-card-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    gap: .5rem;
+}
+
+.card-symbols{
+    padding: 1.2rem 1.7rem;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+ul.text-left{
+    list-style-type: "✓  ";
+    width: 13.7rem;
+    margin: auto;
+    padding-left: 2rem;
+    font-size: .9rem;
+
+    li{
+    padding: .1rem;
+    }
+}
+
+.premium-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 4rem;
+    padding: .5rem;
+}
+
+.premium-card-container article{
+width: 100%;
+min-height: 400px;
+background-color: #242424;
+border-radius: 10px;
+position: relative;
+padding-bottom: 1rem;
+}
+
+.premium-card-top{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-bottom: 1px solid rgb(54, 54, 54);
+    padding: 1rem 0;
+    margin: 2.5rem 1rem 1rem 1rem;
+}
+
+.premium-card-top p{
+    margin-top: -1rem;
+}
+
+.small-grey{
+    font-size: .8rem;
+    color: grey;
+}
+
+.premium-card-bottom{
+    padding: 0 1rem;
+    font-size: .9rem;
+}
+
+.premium-card-bottom a{
+    color: grey;
+}
+
+.premium-card-bottom ul{
+    padding: 0 1rem;
+}
+
+.premium-card-bottom li{
+    font-size: .85rem;
+    line-height: 1.4rem;
+}
+
+.premium-card-button{
+    width: 100%;
+    background-color: #FFD2D7;
+    border: none;
+    color: black;
+    margin: 1rem auto 2rem;
+}
+
+.premium-card-top h2{
+    font-size: 1.7rem;
+}
+
+.corner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFD2D7;
+    color: black;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: .9rem;
+    width: 9rem;
+    border-radius: 5px 0 5px 0;
+    padding: .3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.questions ul{
+    list-style: none;
+    margin: -1rem;
+    text-align: left;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: rgb(20, 20, 20);
+    margin-bottom: 3rem;
+}
+
+.questions ul li:last-child{
+    border: none;
+}
+
+.questions ul li{
+    border-bottom: 1px solid rgb(50, 50, 50);
+    padding: 1rem 1rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.questions span{
+    font-size: 1.9rem;
+}
+
+.questions ul li:hover{
+    background-color: rgb(60, 60, 60);
+}
+
+.questions a{
+    color: var(--text);
+}
+
+.questions a:hover{
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--background);
+    padding: 2rem 1rem;
+}
+
+h3{
+    color: gray;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+footer ul{
+    list-style: none;
+    margin-top: 2rem;
+}
+
+footer ul li{
+    margin-bottom: 1.1rem;
+}
+
+footer ul a{
+    color: var(--text);
+    text-decoration: none;
+}
+
+footer ul a:hover{
+    color: #1ed760;
+}
+
+.social-media-icon-container{
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.social-media-icon{
+    padding: 1.5rem;
+    border-radius: 50%;
+    background-color: #292929;
+}
+
+.footer-bottom{
+    height: 10rem;
+}
+
+.font-pink{
+    color: #FFD2D7;
+}
+
+.font-grey{
+    color: rgb(188, 188, 188);
+    font-size: .7rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+@media (min-width: 535px) {
+    .buttons{
+        flex-direction: row;
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+    .hero{
+        margin-top: 19rem;
+        font-size: .8rem;
+    }
+    .checklist-container{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+
+        h2{
+            max-width: 200px;
+        }
+
+        ul{
+            margin: 0;
+        }
+    }
+
+}
