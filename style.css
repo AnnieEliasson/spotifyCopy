@@ -311,6 +311,7 @@ padding-bottom: 1rem;
 footer{
     background-color: var(--background);
     padding: 2rem 1rem;
+    color: gray;
 }
 
 h3{
@@ -338,6 +339,15 @@ footer ul a:hover{
     color: #1ed760;
 }
 
+.country{
+    display: flex;
+    gap: .5rem;
+    justify-content: flex-end;
+    font-size: .6rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
 .social-media-icon-container{
     display: flex;
     gap: 1.5rem;
@@ -351,7 +361,33 @@ footer ul a:hover{
 }
 
 .footer-bottom{
-    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom div{
+    font-size: .6rem;
+    width: 230px;
+    text-align: right;
+}
+
+.links{
+    font-size: .6rem;
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links a{
+    color: grey;
+    padding-right: .5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #1ed760;
 }
 
 .font-pink{
@@ -391,6 +427,10 @@ footer ul a:hover{
         ul{
             margin: 0;
         }
+    }
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
     }
 
 }
