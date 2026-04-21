@@ -17,27 +17,30 @@
         src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_White.png"
         alt="Spotify logo"
       />
-      <img src="hamburger.svg" alt="menu" />
+      <img class="hamburger" src="hamburger.svg" alt="menu" />
     </header>
     <main>
-      <section class="hero">
-        <h1>
-          Lyssna utan begränsningar. Prova 1 månad med Premium Individual för 0
-          kr.
-        </h1>
-        <p>
-          Därefter endast 129 kr/månad. Avsluta prenumerationen när du vill.
-        </p>
-      </section>
-      <section class="buttons">
-        <button id="primary-btn">Prova 1 månad för 0 kr</button>
-        <button>Visa alla planer</button>
-      </section>
-      <p class="small-text">
-        0 kr för 1 månad. Därefter 129kr per månad. Det här erbjudandet gäller
-        endast om du inte har provat Premium tidigare.
-        <a href="#">vilkor gäller.</a>
-      </p>
+      <div class="container">
+        <section class="hero">
+          <h1>
+            Lyssna utan begränsningar. Prova 1 månad med Premium Individual för
+            0 kr.
+          </h1>
+          <p>
+            Därefter endast 129 kr/månad. Avsluta prenumerationen när du vill.
+          </p>
+
+          <section class="buttons">
+            <button id="primary-btn">Prova 1 månad för 0 kr</button>
+            <button>Visa alla planer</button>
+          </section>
+          <p class="small-text">
+            0 kr för 1 månad. Därefter 129kr per månad. Det här erbjudandet
+            gäller endast om du inte har provat Premium tidigare.
+            <a href="#">vilkor gäller.</a>
+          </p>
+        </section>
+      </div>
       <section class="second-section">
         <h2>Upplev skillnaden</h2>
         <p>
@@ -180,109 +183,129 @@
         <article></article>
         <article></article>
       </section>
-      <section class="questions text-center">
-        <h2>Frågor?</h2>
-        <p>Vi har svaren.</p>
-        <br />
-        <p>Du hittar fler svar på vår <a href="#">supportsida.</a></p>
-        <ul>
-          <li>
-            <p>Hur fungerar testversionen av Spotify Premium?</p>
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-          <li>
-            <p>Hur avslutar jag min Premium‑plan?</p>
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-          <li>
-            <p>Hur fungerar Premium Duo‑planen?</p>
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-          <li>
-            <p>Hur fungerar Premium Family‑planen?</p>
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-          <li>
-            <p>Hur fungerar Premium Student‑planen?</p>
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-          <li>
-            <p>Hur mycket kostar Spotify Premium i Sverige?</p>
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-          <li>
-            <p>
-              Hur fungerar lyssningstid för ljudböcker på Premium Individual?
-            </p>
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-          <li>
-            <p>
-              Hur fungerar lyssningstiden för ljudböcker för Premium Duo och
-              Family?
-            </p>
-            <span class="material-symbols-outlined"> keyboard_arrow_down </span>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>
-      <section class="footer-top">
-        <ul>
-          <img
-            class="logo"
-            src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_White.png"
-            alt="Spotify logo"
-          />
-        </ul>
-
-        <ul>
-          <li><h3>Företaget</h3></li>
-          <li><a href="#">Om</a></li>
-          <li><a href="#">Jobb</a></li>
-          <li><a href="#">For the Record</a></li>
-        </ul>
-        <ul>
-          <li><h3>Communities</h3></li>
-          <li><a href="#">För artister</a></li>
-          <li><a href="#">Utvecklare</a></li>
-          <li><a href="#">Annonsering</a></li>
-          <li><a href="#">Investerare</a></li>
-          <li><a href="#">Försäljare</a></li>
-        </ul>
-        <ul>
-          <li><h3>Användbara länkar</h3></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Webbspelaren</a></li>
-          <li><a href="#">Gratis mobilapp</a></li>
-          <li><a href="#">Importera din musik</a></li>
-        </ul>
-        <ul>
-          <li><h3>Spotify-planer</h3></li>
-          <li><a href="#">Premium Individual</a></li>
-          <li><a href="#">Premuim Duo</a></li>
-          <li><a href="#">Premium Family</a></li>
-          <li><a href="#">Premium Student</a></li>
-          <li><a href="#">Spotify Free</a></li>
-        </ul>
-      </section>
-      <section class="social-media-icon-container">
-        <div class="social-media-icon"></div>
-        <div class="social-media-icon"></div>
-        <div class="social-media-icon"></div>
-      </section>
-      <section class="country"><span>🌏︎</span><span>Sverige</span></section>
-      <section class="footer-bottom">
-        <section class="links">
-          <a href="#">Juridisk information</a>
-          <a href="#">Säkerhets‑ och integritetscenter</a>
-          <a href="#">Integritetspolicy</a>
-          <a href="#">Cookie-inställningar</a>
-          <a href="#">Om annonser</a>
-          <a href="#">Hjälpmedel</a>
+      <div class="container">
+        <section class="questions text-center">
+          <h2>Frågor?</h2>
+          <p>Vi har svaren.</p>
+          <br />
+          <p>Du hittar fler svar på vår <a href="#">supportsida.</a></p>
+          <ul>
+            <li>
+              <p>Hur fungerar testversionen av Spotify Premium?</p>
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+            <li>
+              <p>Hur avslutar jag min Premium‑plan?</p>
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+            <li>
+              <p>Hur fungerar Premium Duo‑planen?</p>
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+            <li>
+              <p>Hur fungerar Premium Family‑planen?</p>
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+            <li>
+              <p>Hur fungerar Premium Student‑planen?</p>
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+            <li>
+              <p>Hur mycket kostar Spotify Premium i Sverige?</p>
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+            <li>
+              <p>
+                Hur fungerar lyssningstid för ljudböcker på Premium Individual?
+              </p>
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+            <li>
+              <p>
+                Hur fungerar lyssningstiden för ljudböcker för Premium Duo och
+                Family?
+              </p>
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </li>
+          </ul>
         </section>
-        <div>© 2026 Spotify AB</div>
-      </section>
-    </footer>
+      </div>
+    </main>
+    <div class="container">
+      <footer>
+        <section class="footer-top">
+          <ul>
+            <img
+              class="logo"
+              src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Full_Logo_RGB_White.png"
+              alt="Spotify logo"
+            />
+          </ul>
+
+          <ul>
+            <li><h3>Företaget</h3></li>
+            <li><a href="#">Om</a></li>
+            <li><a href="#">Jobb</a></li>
+            <li><a href="#">For the Record</a></li>
+          </ul>
+          <ul>
+            <li><h3>Communities</h3></li>
+            <li><a href="#">För artister</a></li>
+            <li><a href="#">Utvecklare</a></li>
+            <li><a href="#">Annonsering</a></li>
+            <li><a href="#">Investerare</a></li>
+            <li><a href="#">Försäljare</a></li>
+          </ul>
+          <ul>
+            <li><h3>Användbara länkar</h3></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Webbspelaren</a></li>
+            <li><a href="#">Gratis mobilapp</a></li>
+            <li><a href="#">Importera din musik</a></li>
+          </ul>
+          <ul>
+            <li><h3>Spotify-planer</h3></li>
+            <li><a href="#">Premium Individual</a></li>
+            <li><a href="#">Premuim Duo</a></li>
+            <li><a href="#">Premium Family</a></li>
+            <li><a href="#">Premium Student</a></li>
+            <li><a href="#">Spotify Free</a></li>
+          </ul>
+        </section>
+        <section class="social-media-icon-container">
+          <div class="social-media-icon"></div>
+          <div class="social-media-icon"></div>
+          <div class="social-media-icon"></div>
+        </section>
+        <section class="country"><span>🌏︎</span><span>Sverige</span></section>
+        <section class="footer-bottom">
+          <section class="links">
+            <a href="#">Juridisk information</a>
+            <a href="#">Säkerhets‑ och integritetscenter</a>
+            <a href="#">Integritetspolicy</a>
+            <a href="#">Cookie-inställningar</a>
+            <a href="#">Om annonser</a>
+            <a href="#">Hjälpmedel</a>
+          </section>
+          <div>© 2026 Spotify AB</div>
+        </section>
+      </footer>
+    </div>
   </body>
 </html>
