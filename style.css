@@ -30,6 +30,7 @@ header{
 
 .logo{
     width: 90px;
+    height: 25px;
 }
 
 main{
@@ -119,9 +120,11 @@ h2{
 table{
     text-align: left;
     width: 100%;
+    max-width: 30rem;
+    margin: auto;
     margin-top: 3rem;
     border-collapse: collapse;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     
 }
 
@@ -187,9 +190,11 @@ ul.text-left{
 }
 
 .premium-card-container{
+    max-width: 30rem;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    margin: auto;
     margin-top: 3.5rem;
     margin-bottom: 4rem;
     padding: .5rem;
@@ -310,8 +315,10 @@ padding-bottom: 1rem;
 
 footer{
     background-color: var(--background);
-    padding: 2rem 1rem;
+    padding: 0rem 1rem;
     color: gray;
+    display: flex;
+    flex-direction: column;
 }
 
 h3{
@@ -403,17 +410,7 @@ footer ul a:hover{
     text-align: center;
 }
 
-@media (min-width: 535px) {
-    .buttons{
-        flex-direction: row;
-    }
-    h1{
-        font-size: 1.7rem;
-    }
-    .hero{
-        margin-top: 19rem;
-        font-size: .8rem;
-    }
+@media (min-width: 430px) {
     .checklist-container{
         display: flex;
         justify-content: center;
@@ -428,9 +425,40 @@ footer ul a:hover{
             margin: 0;
         }
     }
+}
+
+@media (min-width: 535px) {
+    .buttons{
+        flex-direction: row;
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+    .hero{
+        margin-top: 19rem;
+        font-size: .8rem;
+    }
+    
+    
+
+}
+
+@media (min-width: 768px) {
+    h1{
+        max-width: 22rem;
+        font-size: 2.2rem;
+    }
+
+    .hero{
+    margin-top: 7rem;
+    }
+
     .footer-top{
         display: flex;
         justify-content: space-between;
     }
+}
 
+@media (min-width: 992px) {
+    
 }
