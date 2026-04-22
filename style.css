@@ -2,6 +2,11 @@
 :root{
     --background: black;
     --text: white;
+
+    --purple: #C4B1D4;
+    --yellow: #FFC862;
+    --blue: #A5BBD1;
+    
 }
 
 *{
@@ -214,11 +219,14 @@ ul.text-left{
 .premium-card-container article{
 max-width: 450px;
 width: 100%;
-min-height: 400px;
 background-color: #242424;
 border-radius: 10px;
 position: relative;
 padding-bottom: 1rem;
+}
+
+.margin-fix{
+    margin-top: -2.5rem;
 }
 
 .premium-card-top{
