@@ -6,7 +6,7 @@
     --purple: #C4B1D4;
     --yellow: #FFC862;
     --blue: #A5BBD1;
-    
+
 }
 
 *{
@@ -278,6 +278,7 @@ padding-bottom: 1rem;
     font-size: 1.7rem;
 }
 
+
 .corner{
     position: absolute;
     top: 0;
@@ -430,6 +431,30 @@ footer ul a:hover{
     text-align: center;
 }
 
+.bg-color-purple{
+    background-color: var(--purple);
+}
+
+.font-purple{
+    color: var(--purple);
+}
+
+.bg-color-yellow{
+    background-color: var(--yellow);
+}
+
+.font-yellow{
+    color: var(--yellow);
+}
+
+.bg-color-blue{
+    background-color: var(--blue);
+}
+
+.font-blue{
+    color: var(--blue);
+}
+
 @media (min-width: 430px) {
     .checklist-container{
         display: flex;
@@ -488,6 +513,9 @@ footer ul a:hover{
     .hamburger{
         display: none;
     }
+
+
+
     footer{
         padding: 2rem;
     }
