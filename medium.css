@@ -11,6 +11,11 @@
     padding-right: 3rem;
 }
 
+.navlist a {
+    color: white;
+    text-decoration: none;
+}
+
 @media (max-width: 992px) {
     nav {
         display: none;
